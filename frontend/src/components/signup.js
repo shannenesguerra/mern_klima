@@ -44,7 +44,7 @@ const Signup = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/signup', {
+      const response = await fetch('https://klima-backend.onrender.com/api/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, email, password })
@@ -72,7 +72,7 @@ const Signup = () => {
   const handleOtpVerification = async () => {
     try {
       const otpCode = otp.join(''); // Convert array to string
-      const response = await fetch('http://localhost:5000/api/verify-otp', {
+      const response = await fetch('https://klima-backend.onrender.com/api/verify-otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, otp: otpCode })
