@@ -1,0 +1,14 @@
+{
+  "name": "klimafrontend",
+  "version": "project-version",
+  "dependencies": {
+    "mongodb": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon backend/server.js"
+  }
+}

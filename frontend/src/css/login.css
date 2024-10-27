@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.background_login {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/klima\ bg.png"); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_title {
+  margin-top: 10%;
+  margin-right: 50%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.login_container {
+  width: 700px;
+  height: 800;
+  background-color: #E0DECA;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Style for form heading */
+.login_form h2 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for form inputs */
+.login_form input {
+  color: black;
+  width: 400px;
+  height: 70px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* textbox */
+.email_txtbox, .pass_txtbox {
+  position: relative;
+  border: solid 2px #f4f4f4; 
+  padding: 10px;
+  box-shadow: none;
+}
+
+.email_txtbox:hover::before, .pass_txtbox:hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%; 
+  height: 3px; 
+  background-color: #f3f3f3; 
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* forgot password */
+.forgotpass_btn {
+  margin-right: 40%;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.forgotpass_btn a, .signup_btn a {
+  font-weight: 600;
+  color: #197134;
+}
+
+.forgotpass_btn a:hover,
+.signup_btn a:hover {
+  color: 7da02e;
+}
+
+/* Style for submit button */
+.loginbtn {
+  background-color: #197134;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginbtn:hover {
+  background-color: #7da02e;
+  transition: 0.2s;
+}
+
+.login_arrow {
+  display: inline-block;
+  font-size: 20px;
+  transform: scaleX(1.5);
+}
+
+.signup_btn {
+  font-size: 14px;
+  margin-top: 10%;
+}
+
+/* MODAL CONTENT */
+.modal_content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  width: 80%;
+}
+
+.modal_description {
+  margin-top: 5%;
+}
+
+/* close button */
+.modal_close {
+  background-color: #828282;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal_close:hover {
+  background-color: #505050;
+  transition: 0.2s;
+}
+
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0; 
+
+}
+
+.footer_container {
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.footer_copy {
+  color: white; 
+  font-weight: bold;
+}
+
+.bottom_left {
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  width: 70px; 
+  height: 50px;
+}
+
+.bottom_right, .bottom_mid {
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  width: 100p; 
+  height: 50px;
+}
+
+/* LOADING SCREEN */
+.loading_container {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000; 
+}
+
+.loading_screen {
+  background-color: rgba(255, 255, 255, 0.767);
+  padding: 40px; 
+  border-radius: 8px; 
+}
+
+.loading_screen img {
+  width: 200px; /* Adjust the size of the GIF */
+}
+
+/* LOGOS */
+.corner_img {
+  position: absolute;
+  z-index: 1;
+}
+
+.top_left {
+  margin-top: -38%;
+  width: 200px; 
+  height: auto;
+}
+
