@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b67a545a.css",
-    "main.js": "/static/js/main.5f3245f6.js",
+    "main.js": "/static/js/main.fe6ab889.js",
     "static/js/453.e60f79aa.chunk.js": "/static/js/453.e60f79aa.chunk.js",
     "static/media/klima main bg.png": "/static/media/klima main bg.e685bac045b5d2cf212d.png",
     "static/media/klima bg.png": "/static/media/klima bg.e0097424ec3d05ac9c47.png",
@@ -16,18 +16,15 @@
     "static/media/gp logo.png": "/static/media/gp logo.66aabe870513b7050f3f.png",
     "static/media/download btn 2.png": "/static/media/download btn 2.ad5dfc37d60ac967d6b1.png",
     "static/media/gp logo 2.png": "/static/media/gp logo 2.b1b635e6115bf9c96019.png",
-    "static/media/earth.png": "/static/media/earth.0edcfa34acd50c70275f.png",
-    "static/media/water.png": "/static/media/water.72467c7bb1620063186f.png",
-    "static/media/air.png": "/static/media/air.babec7c01ccb5889e038.png",
     "static/media/klima text.png": "/static/media/klima text.e5d554594f81308ed712.png",
     "index.html": "/index.html",
     "static/media/scroll.svg": "/static/media/scroll.59e3ca4958ca1f82a41ca296cfb58314.svg",
     "main.b67a545a.css.map": "/static/css/main.b67a545a.css.map",
-    "main.5f3245f6.js.map": "/static/js/main.5f3245f6.js.map",
+    "main.fe6ab889.js.map": "/static/js/main.fe6ab889.js.map",
     "453.e60f79aa.chunk.js.map": "/static/js/453.e60f79aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b67a545a.css",
-    "static/js/main.5f3245f6.js"
+    "static/js/main.fe6ab889.js"
   ]
 }

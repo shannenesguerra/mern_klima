@@ -10,9 +10,6 @@ import developer1 from '../img/devs/shannen.png';
 import developer2 from '../img/devs/vinnie.png';
 import developer3 from '../img/devs/mane.png';
 import developer4 from '../img/devs/kyan.png';
-import image1 from '../img/water.png';
-import image2 from '../img/earth.png';
-import image3 from '../img/air.png';
 import '../css/homepage.css';
 
 const Homepage = () => {
