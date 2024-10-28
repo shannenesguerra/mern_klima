@@ -75,10 +75,6 @@ function DownloadPage() {
                         </button>
                     </>
                 )}
-                {/* Download Button */}
-                <button className="ddl_button" onClick={openDownloadModal}>
-                    <img src={download} alt="Download" className="dbutton_img" />
-                </button>
 
                 <div className='dscroll'>
                     <img src={scroll} alt="Scroll" className="hscroll_img" />
