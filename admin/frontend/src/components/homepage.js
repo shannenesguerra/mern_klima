@@ -101,8 +101,8 @@ const Homepage = () => {
         {/* Footer */}
         <footer className="hfooter">
           <div className="hfooter_container">
-            <button className="hfooter_link" onClick={openPrivacyModal}>Privacy Policy</button>
-            <button className="hfooter_link" onClick={openTermsModal}>Terms of Service</button>
+            <button className="hfooter_link hfooter_btn" onClick={openPrivacyModal}>Privacy Policy</button>
+            <button className="hfooter_link hfooter_btn" onClick={openTermsModal}>Terms of Service</button>
             <a href="#aboutUs" className="hfooter_link">About Us</a>
             <a href="#ourPartner" className="hfooter_link">Our Partner</a>
             <p className="hfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>
@@ -111,7 +111,6 @@ const Homepage = () => {
             <img src={klimalogo} alt="Bottom Right" className="hbottom_right" />
           </div>
         </footer>
-
 
         {/* Privacy Policy Modal */}
         {isPrivacyModalOpen && (

@@ -75,10 +75,6 @@ function DownloadPage() {
                         </button>
                     </>
                 )}
-                {/* Download Button */}
-                <button className="ddl_button" onClick={openDownloadModal}>
-                    <img src={download} alt="Download" className="dbutton_img" />
-                </button>
 
                 <div className='dscroll'>
                     <img src={scroll} alt="Scroll" className="hscroll_img" />
@@ -167,8 +163,8 @@ function DownloadPage() {
                 {/* Footer */}
                 <footer className="dfooter">
                     <div className="dfooter_container">
-                        <button className="dfooter_link" onClick={openPrivacyModal}>Privacy Policy</button>
-                        <button className="dfooter_link" onClick={openTermsModal}>Terms of Service</button>
+                        <button className="dfooter_link dfooter_btn" onClick={openPrivacyModal}>Privacy Policy</button>
+                        <button className="dfooter_link dfooter_btn" onClick={openTermsModal}>Terms of Service</button>
                         <a href="#aboutUs" className="dfooter_link">About Us</a>
                         <a href="#ourPartner" className="dfooter_link">Our Partner</a>
                         <p className="dfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>

@@ -88,7 +88,7 @@ html {
 
 /*download button*/
 .hdl_button {
-  margin-top: 15%;
+  margin-top: 3%;
   border: none; 
   background: transparent; 
   cursor: pointer;
@@ -246,6 +246,21 @@ html {
   margin: 0 10px;
   color: #FFFFFF; 
   text-decoration: none;
+  list-style: none;
+}
+
+.hfooter_btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.hfooter_btn {
+  color: #FFFFFF;
 }
 
 .hfooter_link:hover {
