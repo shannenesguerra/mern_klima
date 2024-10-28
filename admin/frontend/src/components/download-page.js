@@ -64,6 +64,17 @@ function DownloadPage() {
                 <img src={hklimatxt} alt="KLIMA Logo" className="dtitle_img" />
                 <h1 className='dsubtitle'>Act Now for Nature – A Future Worth Protecting</h1>
 
+                {/* Loading Indicator */}
+                {loading ? (
+                    <div className="loading">Loading...</div> // You can replace this with a spinner if needed
+                ) : (
+                    <>
+                        {/* Download Button */}
+                        <button className="ddl_button" onClick={openDownloadModal}>
+                            <img src={download} alt="Download" className="dbutton_img" />
+                        </button>
+                    </>
+                )}
                 {/* Download Button */}
                 <button className="ddl_button" onClick={openDownloadModal}>
                     <img src={download} alt="Download" className="dbutton_img" />
@@ -155,8 +166,8 @@ function DownloadPage() {
                 {/* Footer */}
                 <footer className="dfooter">
                     <div className="dfooter_container">
-                        <a href="#" className="dfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
-                        <a href="#" className="dfooter_link" onClick={openTermsModal}>Terms of Service</a>
+                        <a className="dfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
+                        <a className="dfooter_link" onClick={openTermsModal}>Terms of Service</a>
                         <a href="#aboutUs" className="dfooter_link">About Us</a>
                         <a href="#ourPartner" className="dfooter_link">Our Partner</a>
                         <p className="dfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>

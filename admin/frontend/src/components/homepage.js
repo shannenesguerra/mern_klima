@@ -103,8 +103,8 @@ const Homepage = () => {
         {/* Footer */}
         <footer className="hfooter">
           <div className="hfooter_container">
-            <a href="#" className="hfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
-            <a href="#" className="hfooter_link" onClick={openTermsModal}>Terms of Service</a>
+            <a className="hfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
+            <a className="hfooter_link" onClick={openTermsModal}>Terms of Service</a>
             <a href="#aboutUs" className="hfooter_link">About Us</a>
             <a href="#ourPartner" className="hfooter_link">Our Partner</a>
             <p className="hfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>
