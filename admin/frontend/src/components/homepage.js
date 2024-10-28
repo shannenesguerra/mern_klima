@@ -30,11 +30,9 @@ const Homepage = () => {
         <h1 className='hsubtitle'>Act Now for Nature – A Future Worth Protecting</h1>
 
         {/* Download Button */}
-        <a href="/login">
-          <button className="hdl_button">
-            <img src={download} alt="Download" className="hbutton_img" />
-          </button>
-        </a>
+        <button className="hdl_button" onClick={() => window.location.href = '/login'}>
+          <img src={download} alt="Download" className="hbutton_img" />
+        </button>
 
         <div className='hscroll'>
           <img src={scroll} alt="Scroll" className="hscroll_img" />
@@ -103,8 +101,8 @@ const Homepage = () => {
         {/* Footer */}
         <footer className="hfooter">
           <div className="hfooter_container">
-            <a className="hfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
-            <a className="hfooter_link" onClick={openTermsModal}>Terms of Service</a>
+            <button className="hfooter_link" onClick={openPrivacyModal}>Privacy Policy</button>
+            <button className="hfooter_link" onClick={openTermsModal}>Terms of Service</button>
             <a href="#aboutUs" className="hfooter_link">About Us</a>
             <a href="#ourPartner" className="hfooter_link">Our Partner</a>
             <p className="hfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>
@@ -113,6 +111,7 @@ const Homepage = () => {
             <img src={klimalogo} alt="Bottom Right" className="hbottom_right" />
           </div>
         </footer>
+
 
         {/* Privacy Policy Modal */}
         {isPrivacyModalOpen && (

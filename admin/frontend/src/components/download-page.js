@@ -97,6 +97,7 @@ function DownloadPage() {
                         <a href="/Game/Klima Setup v1.1 (x64).exe" className="dlink" download>
                             <img src={download2} alt="Download" className="dbutton_img" />
                         </a>
+
                     </div>
                 </div>
             )}
@@ -166,8 +167,8 @@ function DownloadPage() {
                 {/* Footer */}
                 <footer className="dfooter">
                     <div className="dfooter_container">
-                        <a className="dfooter_link" onClick={openPrivacyModal}>Privacy Policy</a>
-                        <a className="dfooter_link" onClick={openTermsModal}>Terms of Service</a>
+                        <button className="dfooter_link" onClick={openPrivacyModal}>Privacy Policy</button>
+                        <button className="dfooter_link" onClick={openTermsModal}>Terms of Service</button>
                         <a href="#aboutUs" className="dfooter_link">About Us</a>
                         <a href="#ourPartner" className="dfooter_link">Our Partner</a>
                         <p className="dfooter_copy">&#169; KLIMA 2024 | All rights reserved.</p>
@@ -176,6 +177,7 @@ function DownloadPage() {
                         <img src={klimalogo} alt="Bottom Right" className="dbottom_right" />
                     </div>
                 </footer>
+
 
                 {/* Privacy Policy Modal */}
                 {isPrivacyModalOpen && (
